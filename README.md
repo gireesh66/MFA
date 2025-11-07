@@ -38,11 +38,12 @@ pip install speechbrain
    
 Pre-trained models were downloaded for English alignment.
 
-```
 # 1. Download the pre-trained English acoustic model
+```
 mfa model download acoustic english_us_arpa
-
+```
 # 2. Download the pre-trained English dictionary
+```
 mfa model download dictionary english_us_arpa
 ```
 
@@ -52,9 +53,14 @@ mfa model download dictionary english_us_arpa
 
 The provided .zip file (containing .wav and .txt files) was unzipped and organized into a corpus directory at ~/mfa_data/my_corpus. The original .txt files were used directly.
 
+
+The data was structured into a multi-speaker format, with *two speaker directories* (speaker1 and speaker2), each containing 6 audio files and their 6 corresponding transcription files
+
+the folder structure as compatible with MFA
+
 Directory Structure:
 ```
-~/mfa_data/my_corpus/
+mfa_data/my_corpus/
 ├── speaker1/
 │   ├── audio_001.wav
 │   ├── audio_001.txt
