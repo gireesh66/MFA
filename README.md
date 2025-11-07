@@ -23,14 +23,16 @@ conda create -n aligner montreal-forced-aligner
 # 2. Activate the newly created environment
 conda activate aligner
 
-# 3. Verify the MFA installation
-mfa --help
 
-# 4. Install PyTorch (CPU version)
+
+# 3. Install PyTorch (CPU version)
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
-# 5. Install SpeechBrain
+# 4. Install SpeechBrain
 pip install speechbrain
+
+# 5. Verify the MFA installation
+mfa --help
 ```
 
 
