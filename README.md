@@ -34,7 +34,7 @@ pip install speechbrain
 ```
 
 
-#2.🚀 Model Preparation
+# 2.🚀 Model Preparation
    
 Pre-trained models were downloaded for English alignment.
 
@@ -49,7 +49,7 @@ mfa model download acoustic english_us_arpa
 mfa model download dictionary english_us_arpa
 ```
 
-#3.📂 Data Preparation & Validation
+# 3.📂 Data Preparation & Validation
 
 **Data Preparation**
 
@@ -102,7 +102,7 @@ mfa validate ~/mfa_data/my_corpus english_us_arpa
 ```
 
 
-#4. Running the Alignment
+# 4. Running the Alignment
    
 The final alignment was run using the prepared corpus, the downloaded dictionary, and the downloaded acoustic model.
 
@@ -111,7 +111,7 @@ The final alignment was run using the prepared corpus, the downloaded dictionary
 ```
 mfa align ~/mfa_data/my_corpus \english_us_arpa \english_us_arpa /mfa_data/my_corpus_aligned
 ```
-#5. 📈 Outputs & Analysis
+# 5. 📈 Outputs & Analysis
    
 The resulting .TextGrid files are located in the output directory ~/mfa_data/my_corpus_aligned.
 These files contain the time-aligned boundaries for every word and phoneme. They were inspected using Praat to verify the alignment quality. A full analysis, including visualizations of good and bad alignments, is available in the report.pdf.
