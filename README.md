@@ -34,7 +34,7 @@ pip install speechbrain
 ```
 
 
-2. ##🚀 Model Preparation 
+##2.🚀 Model Preparation 
    
 Pre-trained models were downloaded for English alignment.
 
