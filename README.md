@@ -1,6 +1,6 @@
 # Forced Alignment with MFA
 
-##  ⚙ Installation & Setup
+## 1. ⚙ Installation & Setup
 
 This project was run on *Windows*.
 
@@ -93,7 +93,7 @@ mfa_data/my_corpus/
 **Validation**
 The prepared corpus was validated against the dictionary to check for any errors, such as out-of-vocabulary words.
 
-**Run the validation command
+**Run the validation command**
 ```
 
 mfa validate ~/mfa_data/my_corpus english_us_arpa
@@ -107,7 +107,7 @@ The final alignment was run using the prepared corpus, the downloaded dictionary
 **Run the main alignment command**
 
 ```
-mfa align ~/mfa_data/my_corpus \english_us_arpa \english_us_arpa /mfa_data/my_corpus_aligned
+mfa align ~/mfa_data/my_corpus english_us_arpa english_us_arpa ~/mfa_data/my_corpus_aligned
 ```
 # 5. 📈 Outputs & Analysis
    
