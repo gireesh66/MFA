@@ -1,6 +1,6 @@
 # Forced Alignment with MFA
 
-## 1. ⚙ Installation & Setup
+##  ⚙ Installation & Setup
 
 This project was run on *Windows*.
 
@@ -38,16 +38,18 @@ pip install speechbrain
    
 Pre-trained models were downloaded for English alignment.
 
-# 1. Download the pre-trained English acoustic model
+
 ```
+#  Download the pre-trained English acoustic model
 mfa model download acoustic english_us_arpa
 ```
-# 2. Download the pre-trained English dictionary
+
 ```
+#  Download the pre-trained English dictionary
 mfa model download dictionary english_us_arpa
 ```
 
-**📂 Data Preparation & Validation**
+**3.📂 Data Preparation & Validation**
 
 **Data Preparation**
 
