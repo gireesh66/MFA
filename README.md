@@ -15,7 +15,7 @@ Once Anaconda is installed, open the *Anaconda Prompt* and run the following com
 
 *Installation Commands:*
 
-
+```bash
 # 1. Create the environment and install MFA
 # (This creates an environment named "aligner")
 conda create -n aligner montreal-forced-aligner
