@@ -44,3 +44,15 @@ mfa model download acoustic english_us_arpa
 # 2. Download the pre-trained English dictionary
 mfa model download dictionary english_us_arpa
 ```
+
+📂 Data Preparation & Validation
+Data Preparation
+The provided .zip file (containing .wav and .txt files) was unzipped and organized into a corpus directory at ~/mfa_data/my_corpus. The original .txt files were used directly.
+Directory Structure:
+
+Validation
+The prepared corpus was validated against the dictionary to check for any errors, such as out-of-vocabulary words.
+```
+# Run the validation command
+mfa validate ~/mfa_data/my_corpus english_us_arpa
+```
