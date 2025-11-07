@@ -46,13 +46,43 @@ mfa model download acoustic english_us_arpa
 mfa model download dictionary english_us_arpa
 ```
 
-📂 Data Preparation & Validation
+📂 **Data Preparation & Validation **
 
 Data Preparation
 
 The provided .zip file (containing .wav and .txt files) was unzipped and organized into a corpus directory at ~/mfa_data/my_corpus. The original .txt files were used directly.
 
 Directory Structure:
+```
+~/mfa_data/my_corpus/
+├── speaker1/
+│   ├── audio_001.wav
+│   ├── audio_001.txt
+│   ├── audio_002.wav
+│   ├── audio_002.txt
+│   ├── audio_003.wav
+│   ├── audio_003.txt
+│   ├── audio_004.wav
+│   ├── audio_004.txt
+│   ├── audio_005.wav
+│   ├── audio_005.txt
+│   ├── audio_006.wav
+│   ├── audio_006.txt
+│
+└── speaker2/
+    ├── audio_001.wav
+    ├── audio_001.txt
+    ├── audio_002.wav
+    ├── audio_002.txt
+    ├── audio_003.wav
+    ├── audio_003.txt
+    ├── audio_004.wav
+    ├── audio_004.txt
+    ├── audio_005.wav
+    ├── audio_005.txt
+    ├── audio_006.wav
+    ├── audio_006.txt
+```
 
 Validation
 The prepared corpus was validated against the dictionary to check for any errors, such as out-of-vocabulary words.
