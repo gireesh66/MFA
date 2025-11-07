@@ -38,14 +38,12 @@ pip install speechbrain
    
 Pre-trained models were downloaded for English alignment.
 
-
+**Download the pre-trained English acoustic model**
 ```
-#  Download the pre-trained English acoustic model
 mfa model download acoustic english_us_arpa
 ```
-
+**Download the pre-trained English dictionary**
 ```
-#  Download the pre-trained English dictionary
 mfa model download dictionary english_us_arpa
 ```
 
