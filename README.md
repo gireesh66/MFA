@@ -31,3 +31,16 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 # 5. Install SpeechBrain
 pip install speechbrain
+```
+
+
+2. 🚀 Model Preparation
+Pre-trained models were downloaded for English alignment.
+
+```
+# 1. Download the pre-trained English acoustic model
+mfa model download acoustic english_us_arpa
+
+# 2. Download the pre-trained English dictionary
+mfa model download dictionary english_us_arpa
+```
