@@ -58,7 +58,7 @@ The data was structured into a multi-speaker format, with *two speaker directori
 
 the folder structure as compatible with MFA
 
-Directory Structure:
+**Directory Structure:**
 ```
 mfa_data/my_corpus/
 ├── speaker1/
