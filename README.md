@@ -23,8 +23,6 @@ conda create -n aligner montreal-forced-aligner
 # 2. Activate the newly created environment
 conda activate aligner
 
-
-
 # 3. Install PyTorch (CPU version)
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
