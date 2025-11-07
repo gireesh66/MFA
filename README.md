@@ -95,7 +95,7 @@ The prepared corpus was validated against the dictionary to check for any errors
 
 # Run the validation command
 ```
-# Run the validation command
+
 mfa validate ~/mfa_data/my_corpus english_us_arpa
 ```
 
